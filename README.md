@@ -20,3 +20,4 @@ npm start
 ## Typical usage
 This is a boilerplate for a chat bot. not a library, so you copy the whole folder to your own project folder, and modify the code to fit your needs.
 
+<img width="885" alt="Screenshot 2024-01-12 at 14 15 56" src="https://github.com/jeromeetienne/openai-chatbot-nodejs/assets/252962/d0b235f8-e4aa-40bd-b09a-0bc32947abe1">

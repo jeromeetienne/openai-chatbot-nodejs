@@ -105,7 +105,7 @@ debug('Global functionSchemas: ', JSON.stringify(functionSchemas, null, '\t'))
 
 // display start message
 const startMessage = `
-Hello, today i will be your assistant. How can i help you about the weather in various location in the world ?
+Hello, today i will be your assistant. How can i help you about the weather in various location in the world ? \
 (this is just a demo, so the weather is always the same)
 
 To exit, just press ${CliColor.bold('ENTER')} key.
@@ -147,7 +147,7 @@ while (true) {
 	} else {
 		// add the question to the user
 		console.log()
-		console.log(CliColor.cyan('How can i help you ?'))
+		// console.log(CliColor.cyan('How can i help you ?'))
 		let userInput = await readline.question(CliColor.green('>> '))
 		userInput = userInput.trim()
 
