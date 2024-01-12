@@ -6,6 +6,7 @@ It is standalone, and very easy to modify.
 It is made as a boilerplate to experiment with your own idea for the bot.
 
 - directly on top of openai
+- support openai functions
 - colored output
 - support readline history
 - support busy wheel while thinking
