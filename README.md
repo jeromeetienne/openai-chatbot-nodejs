@@ -34,3 +34,7 @@ npm start
 
 ## Typical usage
 This is a boilerplate for a chat bot. not a library, so you copy the whole folder to your own project folder, and modify the code to fit your needs.
+
+There is 2 versions: one based on [langchain](https://www.npmjs.com/package/langchain), the other directly on top of [openai](https://www.npmjs.com/package/openai)
+- [./src//openai_chatbot_langchain.js](./src//openai_chatbot_langchain.js)
+- [./src/openai_chatbot_nodejs.js](./src/openai_chatbot_nodejs.js)

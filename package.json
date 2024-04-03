@@ -5,7 +5,9 @@
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
-		"start": "node ./src/openai-chatbot.js",
+		"start": "node ./src/openai_chatbot_nodejs.js",
+		"start:nodejs": "node ./src/openai_chatbot_nodejs.js",
+		"start:langchain": "node ./src/openai_chatbot_langchain.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"keywords": [],
@@ -14,6 +16,8 @@
 	"dependencies": {
 		"cli-color": "^2.0.3",
 		"debug": "^4.3.4",
-		"openai": "^4.24.4"
+		"langchain": "^0.1.30",
+		"openai": "^4.24.4",
+		"zod": "^3.22.4"
 	}
 }
